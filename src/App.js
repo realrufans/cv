@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Cv from "./components";
+import { PDFExport } from "@progress/kendo-react-pdf";
+import React, { useRef } from "react";
+import FullCV from "./container/cv";
 
 function App() {
+  const pdfExportComponent = useRef(null);
+ 
+  console.log(`${new Date()}`);
+  const exportPDF = () => {
+    if (pdfExportComponent.current) {
+      pdfExportComponent.current.save();
+    }
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PDFExport
+        ref={pdfExportComponent}
+        paperSize="auto"
+        margin={0}
+        fileName={`RufansCv ${new Date()}.pdf`}
+      >
+        <FullCV />
+      </PDFExport>
+      <button onClick={exportPDF}>Download</button>
     </div>
   );
 }

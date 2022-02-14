@@ -148,7 +148,7 @@ function FullCV() {
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
-        <Cv.RightDetailsContainer className="ong">
+        <Cv.RightDetailsContainer className="ond">
           <Cv.Duration>2014/01-2016/02</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>

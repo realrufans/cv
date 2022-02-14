@@ -6,7 +6,7 @@ import FullCV from "./container/cv";
 
 function App() {
   const pdfExportComponent = useRef(null);
-
+  //  function to export my cv as pdf file.
   const exportPDF = () => {
     if (pdfExportComponent.current) {
       pdfExportComponent.current.save();
@@ -14,13 +14,6 @@ function App() {
         alert("Downloaded as pdf");
       }, 1000);
     }
-  };
-
-  const zoomout = () => {
-    const height = pdfExportComponent.current;
-    const width = pdfExportComponent.current;
-    console.log(height);
-    console.log(width);
   };
 
   return (

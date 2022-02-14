@@ -5,9 +5,9 @@ export const Container = styled.div`
   background-color: #ebeef5;
   display: flex;
   justify-content: space-between;
-  max-width:1500px;
+  max-width: 1000px;
   width: 100%;
-   
+
   padding: 0;
   box-sizing: border-box;
   box-shadow: 8px 5px 30px grey;
@@ -44,6 +44,7 @@ export const LeftTitle = styled.h1`
   color: #ffffff;
   margin: 0.2em 0.4em;
   text-align: start;
+  max-width: 20%;
 `;
 
 // right view
@@ -74,7 +75,7 @@ export const RightHeading = styled.h2`
   border-radius: 0.2em;
 `;
 export const RightHeading_Heading = styled.h3`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   align-self: start;
   justify-self: start;

@@ -70,15 +70,18 @@ function FullCV() {
             </Cv.RightBody>
             <Cv.RightBody>
               <Cv.Dot></Cv.Dot> Employed coding practices based on commonly
-              accepted standards to establish site layout and user interface.
+              accepted standards to establish site layout and user experience.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Developed landing pages with Reactjs and
-              styled-components.
+              <Cv.Dot></Cv.Dot> Creating responsive interfaces and reusable
+              codes with Reactjs and styled-components.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Collaborating with cross functional team to
-              build responsive user interfaces.
+              <Cv.Dot></Cv.Dot> I make use of HTML, JavaScript, and CSS to bring
+              concepts to life.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <Cv.Dot></Cv.Dot> Fixing bugs and testing for usability.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
@@ -94,19 +97,44 @@ function FullCV() {
             </Cv.RightBody>
 
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Inspect product or services to meet company
-              regulatry requirements.
+              <Cv.Dot></Cv.Dot> I create quality measurements to track
+              improvement in products and services being worked on by several
+              sections of the company.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Conceived and built optimized landing page in
-              Html, Css, and Javascript for integration and cross-browser
-              compatibilty.
+              <Cv.Dot></Cv.Dot> I Inspect products or services to meet company
+              regulatory requirements.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <Cv.Dot></Cv.Dot> I work closely with the development team to
+              improve existing products.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <Cv.Dot></Cv.Dot> I sometimes assist with Front-end development
+              which includes the creation of landing-page with, testing, and
+              debugging.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
         {/* Education */}
         <Cv.RightHeading>Education</Cv.RightHeading>
+
+        <Cv.RightDetailsContainer className="scrimba">
+          <Cv.Duration>2021/03-2021/09</Cv.Duration>
+          <Cv.RightDetails>
+            <Cv.RightHeading_Heading>
+              Frontend Developer Career Path at{" "}
+              <a href="https://scrimba.com/">Scrimba.com</a>
+            </Cv.RightHeading_Heading>
+
+            <Cv.RightBody>
+              Contains over 70 hours of top-notch tutorials, hundreds of coding
+              challenges, and dozens of real-world projects.
+            </Cv.RightBody>
+          </Cv.RightDetails>
+        </Cv.RightDetailsContainer>
+
         <Cv.RightDetailsContainer className="Hnd">
           <Cv.Duration>2018/01-2020/04</Cv.Duration>
           <Cv.RightDetails>
@@ -120,8 +148,8 @@ function FullCV() {
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
-        <Cv.RightDetailsContainer className="Ond">
-          <Cv.Duration>2018/01-2020/04</Cv.Duration>
+        <Cv.RightDetailsContainer className="ong">
+          <Cv.Duration>2014/01-2016/02</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>
               Ordinary National Diploma: Computer Enginerring
@@ -140,11 +168,10 @@ function FullCV() {
         <Cv.RightDetailsContainer>
           <Cv.RightDetails>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Reading latest news on Web3 and its products.
-            </Cv.RightBody>
-
-            <Cv.RightBody>
               <Cv.Dot></Cv.Dot> Writing and bloging Technical/personal contents.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <Cv.Dot></Cv.Dot> Reading latest news on Web3 and its products.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>

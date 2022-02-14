@@ -6,12 +6,21 @@ import FullCV from "./container/cv";
 
 function App() {
   const pdfExportComponent = useRef(null);
- 
-  console.log(`${new Date()}`);
+
   const exportPDF = () => {
     if (pdfExportComponent.current) {
       pdfExportComponent.current.save();
+      setTimeout(() => {
+        alert("Downloaded as pdf");
+      }, 1000);
     }
+  };
+
+  const zoomout = () => {
+    const height = pdfExportComponent.current;
+    const width = pdfExportComponent.current;
+    console.log(height);
+    console.log(width);
   };
 
   return (

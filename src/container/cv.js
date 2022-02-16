@@ -51,7 +51,7 @@ function FullCV() {
       </Cv.LeftViewContainer>
       <Cv.RightView>
         <Cv.Introduction>
-          Tech profession, with expertise in Front-End developing. I have bagged
+          Tech professional, with expertise in Front-End developing. I have bagged
           one year and five months of experience and maximum results working
           with either HTML, CSS, Vanilla, JavaScript, or Reactjs and
           styled-components.

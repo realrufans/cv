@@ -1,4 +1,5 @@
 import Cv from "../components";
+import { CheckCircleIcon } from "@heroicons/react/solid";
 
 function FullCV() {
   return (
@@ -43,6 +44,7 @@ function FullCV() {
         <Cv.Body>React</Cv.Body>
         <Cv.Body>Git</Cv.Body>
         <Cv.Body>Styled-Components</Cv.Body>
+        <Cv.Body>TailwindCss</Cv.Body>
         <Cv.LeftView>
           {" "}
           <Cv.Heading>Language</Cv.Heading>
@@ -51,10 +53,11 @@ function FullCV() {
       </Cv.LeftViewContainer>
       <Cv.RightView>
         <Cv.Introduction>
-          Tech professional, with expertise in Front-End developing. I have bagged
-          one year and five months of experience and maximum results working
-          with either HTML, CSS, Vanilla, JavaScript, or Reactjs and
-          styled-components.
+          A Tech professional, with expertise in Front-End development. I have
+          bagged two years of learning, working experience, and maximum results
+          working with either HTML, CSS, Vanilla JavaScript, Reactjs, and
+          styled-components. I'm currently transitioning into Web3 journey while
+          I develop with Reactjs, TailwindCss, and Solidity.
         </Cv.Introduction>
 
         {/* Work history */}
@@ -69,19 +72,21 @@ function FullCV() {
               @{<a href="https://telostask.app/">Telostask.app</a>}
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Employed coding practices based on commonly
-              accepted standards to establish site layout and user experience.
+              <CheckCircleIcon className="dotit" /> Employed coding practices
+              based on commonly accepted standards to establish site layout and
+              user experience.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Creating responsive interfaces and reusable
-              codes with Reactjs and styled-components.
+              <CheckCircleIcon className="dotit" /> Creating responsive
+              interfaces and reusable codes with Reactjs and styled-components.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> I make use of HTML, JavaScript, and CSS to bring
-              concepts to life.
+              <CheckCircleIcon className="dotit" /> I make use of HTML,
+              JavaScript, and CSS to bring concepts to life.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Fixing bugs and testing for usability.
+              <CheckCircleIcon className="dotit" /> Fixing bugs and testing for
+              usability.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
@@ -97,22 +102,22 @@ function FullCV() {
             </Cv.RightBody>
 
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> I create quality measurements to track
-              improvement in products and services being worked on by several
-              sections of the company.
+              <CheckCircleIcon className="dotit" /> I create quality
+              measurements to track improvement in products and services being
+              worked on by several sections of the company.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> I Inspect products or services to meet company
-              regulatory requirements.
+              <CheckCircleIcon className="dotit" /> I Inspect products or
+              services to meet company regulatory requirements.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> I work closely with the development team to
-              improve existing products.
+              <CheckCircleIcon className="dotit" /> I work closely with the
+              development team to improve existing products.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> I sometimes assist with Front-end development
-              which includes the creation of landing-page with, testing, and
-              debugging.
+              <CheckCircleIcon className="dotit" /> I sometimes assist with
+              Front-end development which includes the creation of landing-page
+              with, testing, and debugging.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
@@ -132,6 +137,7 @@ function FullCV() {
               Contains over 70 hours of top-notch tutorials, hundreds of coding
               challenges, and dozens of real-world projects.
             </Cv.RightBody>
+            
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
@@ -168,10 +174,12 @@ function FullCV() {
         <Cv.RightDetailsContainer>
           <Cv.RightDetails>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Writing and bloging Technical/personal contents.
+              <CheckCircleIcon className="dotit" /> Writing and bloging
+              Technical/personal contents.
             </Cv.RightBody>
             <Cv.RightBody>
-              <Cv.Dot></Cv.Dot> Reading latest news on Web3 and its products.
+              <CheckCircleIcon className="dotit" /> Reading latest news on Web3
+              and its products.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>

@@ -64,7 +64,7 @@ export const RightDetailsContainer = styled.div`
   gap: 2em;
 `;
 export const RightDetails = styled.div`
-  font-size: 1.1rem;
+  font-size: 1rem;
 `;
 export const RightHeading = styled.h2`
   color: #003d73;
@@ -73,28 +73,37 @@ export const RightHeading = styled.h2`
   border-left: 0;
   text-align: start;
   border-radius: 0.2em;
+ 
 `;
 export const RightHeading_Heading = styled.h3`
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
   align-self: start;
   justify-self: start;
+ 
 `;
-export const RightBody = styled.p``;
+export const RightBody = styled.p`
+ 
+text-align:stat;
+padding-right:2rem;
+
+`;
 
 export const Introduction = styled.p`
   line-height: 1.6;
   letter-spacing: 0.05rem;
-  text-align: center;
-  font-size: 1.2rem;
+  text-align: start;
+  font-size: 1rem;
+  padding-left:0.5rem;
+  
+  
 `;
 
-export const Duration = styled.strong``;
+export const Duration = styled.strong`
+ max-width:min-content;
+ 
+`;
 
 export const Dot = styled.span`
-  display: inline-block;
-  height: 7px;
-  width: 7px;
-  border-radius: 50%;
-  background: #003d73;
+background:red;
 `;

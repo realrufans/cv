@@ -14,12 +14,7 @@ body {
   width: 15px;
   color:#003d73;
 }
-.Hnd p,
-.Ond p,
-.scrimba p {
-  font-style: italic;
  
-}
 .Hnd > strong {
   max-width: 10%;
 }
@@ -45,4 +40,6 @@ button {
  
  
 
-
+.Activities > *{
+  margin-left:  9em ;
+}

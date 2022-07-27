@@ -57,18 +57,15 @@ export const RightView = styled.div`
 
 export const RightDetailsContainer = styled.div`
   display: flex;
-  justify-content: space-between;
-
   margin-bottom: 1em;
-
-  gap: 2em;
+  gap: 5em;
 `;
 export const RightDetails = styled.div`
   font-size: 1rem;
 `;
 export const RightHeading = styled.h2`
   color: #003d73;
-  border: solid 3px grey;
+  border: solid 1px grey;
   border-right: 0;
   border-left: 0;
   text-align: start;
@@ -76,15 +73,13 @@ export const RightHeading = styled.h2`
  
 `;
 export const RightHeading_Heading = styled.h3`
-  font-size: 1.5rem;
-  text-align: center;
-  align-self: start;
-  justify-self: start;
+  font-size: 1.2rem;
+ 
  
 `;
 export const RightBody = styled.p`
  
-text-align:stat;
+text-align:start;
 padding-right:2rem;
 
 `;

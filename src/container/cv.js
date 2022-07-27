@@ -13,11 +13,11 @@ function FullCV() {
           <Cv.Heading>Contact</Cv.Heading>
         </Cv.LeftView>
         <Cv.Heading_Heading>Address</Cv.Heading_Heading>
-        <Cv.Body>12b, Adetayo Ogunaike, Berger Lagos Nigeria</Cv.Body>
+        <Cv.Body>Lagos, Nigeria</Cv.Body>
         <Cv.Heading_Heading>Phone</Cv.Heading_Heading>
         <Cv.Body className="leftHeading">+234(0)8182590878</Cv.Body>
         <Cv.Heading_Heading>Email</Cv.Heading_Heading>
-        <Cv.Body>Realboyswag9@gmail.com</Cv.Body>
+        <Cv.Body>solomonemetonjo@gmail.com</Cv.Body>
         <Cv.Heading_Heading>linkedin</Cv.Heading_Heading>
         <a href="https://www.linkedin.com/in/realrufans">
           {" "}
@@ -28,11 +28,11 @@ function FullCV() {
           {" "}
           <Cv.Body>https://github.com/realrufans</Cv.Body>
         </a>
-        <Cv.Heading_Heading>Twitter</Cv.Heading_Heading>
+        {/* <Cv.Heading_Heading>Twitter</Cv.Heading_Heading>
         <a href="https://twitter.com/realrufans22">
           {" "}
           <Cv.Body>https://twitter.com/realrufans22</Cv.Body>
-        </a>
+        </a> */}
         {/* skills */}
         <Cv.LeftView>
           {" "}
@@ -42,9 +42,11 @@ function FullCV() {
         <Cv.Body>Css</Cv.Body>
         <Cv.Body>Javascript</Cv.Body>
         <Cv.Body>React</Cv.Body>
+        <Cv.Body>Nextjs</Cv.Body>
         <Cv.Body>Git</Cv.Body>
         <Cv.Body>Styled-Components</Cv.Body>
         <Cv.Body>TailwindCss</Cv.Body>
+        <Cv.Body>Firebase</Cv.Body>
         <Cv.LeftView>
           {" "}
           <Cv.Heading>Language</Cv.Heading>
@@ -53,13 +55,12 @@ function FullCV() {
       </Cv.LeftViewContainer>
       <Cv.RightView>
         <Cv.Introduction>
-          A Tech professional, with expertise in Front-End development. I have
-          bagged two years of learning, working experience, and maximum results
-          working with either HTML, CSS, Vanilla JavaScript, Reactjs, and
-          styled-components. I'm currently transitioning into Web3 journey while
-          I develop with Reactjs, TailwindCss, and Solidity.
+          A tech expert with experience in front-end web development. I have two
+          years of experience, learning, and successful outcomes working with
+          web development standards to build dynamic websites. I'm now embarking
+          on a Web3 journey while working with Solidity and Nextjs or Vitejs to
+          communicate with smart contracts.
         </Cv.Introduction>
-
         {/* Work history */}
         <Cv.RightHeading>Experience</Cv.RightHeading>
         <Cv.RightDetailsContainer>
@@ -71,26 +72,31 @@ function FullCV() {
             <Cv.RightBody>
               @{<a href="https://telostask.app/">Telostask.app</a>}
             </Cv.RightBody>
+
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> Employed coding practices
-              based on commonly accepted standards to establish site layout and
-              user experience.
-            </Cv.RightBody>
-            <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> Creating responsive
+              <CheckCircleIcon className="dotit" /> Creating of responsive
               interfaces and reusable codes with Reactjs and styled-components.
             </Cv.RightBody>
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> I make use of HTML,
-              JavaScript, and CSS to bring concepts to life.
+              <CheckCircleIcon className="dotit" /> Using Nextjs and
+              TailwindCss, I converted static design mockups into a fully usable
+              web3 interface.
             </Cv.RightBody>
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> Fixing bugs and testing for
-              usability.
+              <CheckCircleIcon className="dotit" /> I used the most commonly
+              accepted standards to establish the site layout and user
+              experience.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <CheckCircleIcon className="dotit" /> HTML, JavaScript, and CSS
+              were used to bring the product designer's concepts to life.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <CheckCircleIcon className="dotit" />
+              Performing bug fixes and code reviews to improve UI
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
-
         <Cv.RightDetailsContainer>
           <Cv.Duration>2020/02-Pressent</Cv.Duration>
           <Cv.RightDetails>
@@ -122,26 +128,24 @@ function FullCV() {
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
-        {/* Education */}
+        {/* djsljdlsjdlsjldkjsd */}
         <Cv.RightHeading>Education</Cv.RightHeading>
-
-        <Cv.RightDetailsContainer className="scrimba">
-          <Cv.Duration>2021/03-2021/09</Cv.Duration>
+        <Cv.RightDetailsContainer>
+          <Cv.Duration>22021/03-2021/09</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>
-              Frontend Developer Career Path at{" "}
-              <a href="https://scrimba.com/">Scrimba.com</a>
+              Frontend Developer Career Path at Scrimba.com
             </Cv.RightHeading_Heading>
 
             <Cv.RightBody>
-              Contains over 70 hours of top-notch tutorials, hundreds of coding
-              challenges, and dozens of real-world projects.
+              <CheckCircleIcon className="dotit" /> Contains over 70 hours of
+              top-notch tutorials, hundreds of coding challenges, and dozens of
+              real-world projects.
             </Cv.RightBody>
-            
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
-        <Cv.RightDetailsContainer className="Hnd">
+        <Cv.RightDetailsContainer>
           <Cv.Duration>2018/01-2020/04</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>
@@ -149,12 +153,15 @@ function FullCV() {
             </Cv.RightHeading_Heading>
 
             <Cv.RightBody>
-              Moshood Abiola Polytechnic - Abeokuta, Ogun State Nigeria
+              <CheckCircleIcon className="dotit" /> Moshood Abiola Polytechnic -
+              Abeokuta, Ogun State Nigeria
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
-        <Cv.RightDetailsContainer className="ond">
+        {/* seee */}
+
+        <Cv.RightDetailsContainer>
           <Cv.Duration>2014/01-2016/02</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>
@@ -162,16 +169,16 @@ function FullCV() {
             </Cv.RightHeading_Heading>
 
             <Cv.RightBody>
-              Moshood Abiola Polytechnic - Abeokuta, Ogun State Nigeria
+              <CheckCircleIcon className="dotit" /> Moshood Abiola Polytechnic -
+              Abeokuta, Ogun State Nigeria
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
 
-        {/* Activities/Interests */}
-        <Cv.RightHeading className="Activities">
-          Activities/Interests
-        </Cv.RightHeading>
-        <Cv.RightDetailsContainer>
+        {/* hsdkshkdhskdh */}
+
+        <Cv.RightHeading>Activities/Interests</Cv.RightHeading>
+        <Cv.RightDetailsContainer className="Activities">
           <Cv.RightDetails>
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" /> Writing and bloging
@@ -183,7 +190,6 @@ function FullCV() {
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
-
         {/*  */}
       </Cv.RightView>
     </Cv>

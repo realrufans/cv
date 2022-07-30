@@ -70,7 +70,7 @@ function FullCV() {
             <Cv.RightHeading_Heading>
               Blockchain Front End Developer
             </Cv.RightHeading_Heading>
-            <Cv.RightBody>{<a href="">CoinSino (coming soon)</a>}</Cv.RightBody>
+            <Cv.RightBody className="projectlink">{<a href="">CoinSino (coming soon)</a>}</Cv.RightBody>
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" />
               With Nextjs and TailwindCss, I converted static design mockups
@@ -84,7 +84,7 @@ function FullCV() {
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" />
               Seamless handling of internal Etherjs events such as
-              OnAccountChanged, onNetworkChanged, and so on.
+              onAccountChanged, onNetworkChanged, and so on.
             </Cv.RightBody>
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" />
@@ -99,8 +99,8 @@ function FullCV() {
             <Cv.RightHeading_Heading>
               Front End Developer
             </Cv.RightHeading_Heading>
-            <Cv.RightBody>
-              @{<a href="https://telostask.app/">Telostask.app</a>}
+            <Cv.RightBody className="projectlink">
+              {<a href="https://telostask.app/">Telostask.app</a>}
             </Cv.RightBody>
 
             <Cv.RightBody>
@@ -130,8 +130,8 @@ function FullCV() {
             <Cv.RightHeading_Heading>
               Quality Assurance Analyst
             </Cv.RightHeading_Heading>
-            <Cv.RightBody>
-              @{<a href="https://mydappr.io/">MyDappr.io</a>}
+            <Cv.RightBody className="projectlink">
+              {<a href="https://mydappr.io/">MyDappr.io</a>}
             </Cv.RightBody>
 
             <Cv.RightBody>

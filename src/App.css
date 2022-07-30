@@ -13,6 +13,8 @@ body {
   height:  15px;
   width: 15px;
   color:#003d73;
+  margin-right: 0.2em;
+
 }
  
 .Hnd > strong {
@@ -38,8 +40,15 @@ button {
 }
 
  
+ .projectlink>a{
+  background: #003d73;
+  width: fit-content;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.4em;
  
-
+ }
+ 
 .Activities > *{
   margin-left:  9em ;
 }

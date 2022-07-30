@@ -47,6 +47,7 @@ function FullCV() {
         <Cv.Body>Styled-Components</Cv.Body>
         <Cv.Body>TailwindCss</Cv.Body>
         <Cv.Body>Firebase</Cv.Body>
+        <Cv.Body>Etherjs & web3js</Cv.Body>
         <Cv.LeftView>
           {" "}
           <Cv.Heading>Language</Cv.Heading>
@@ -64,7 +65,36 @@ function FullCV() {
         {/* Work history */}
         <Cv.RightHeading>Experience</Cv.RightHeading>
         <Cv.RightDetailsContainer>
-          <Cv.Duration>2020/05-Pressent</Cv.Duration>
+          <Cv.Duration>2022/06-Present</Cv.Duration>
+          <Cv.RightDetails>
+            <Cv.RightHeading_Heading>
+              Blockchain Front End Developer
+            </Cv.RightHeading_Heading>
+            <Cv.RightBody>{<a href="">CoinSino (coming soon)</a>}</Cv.RightBody>
+            <Cv.RightBody>
+              <CheckCircleIcon className="dotit" />
+              With Nextjs and TailwindCss, I converted static design mockups
+              into an entirely usable web3 interface.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <CheckCircleIcon className="dotit" />
+              Using SSR(ServerSideRendering) from Nextjs, I was able to interact
+              with Blockchain on the fly.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <CheckCircleIcon className="dotit" />
+              Seamless handling of internal Etherjs events such as
+              OnAccountChanged, onNetworkChanged, and so on.
+            </Cv.RightBody>
+            <Cv.RightBody>
+              <CheckCircleIcon className="dotit" />
+              Tricky bugs were properly handled.
+            </Cv.RightBody>
+          </Cv.RightDetails>
+        </Cv.RightDetailsContainer>
+
+        <Cv.RightDetailsContainer>
+          <Cv.Duration>2020/05-Present</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>
               Front End Developer
@@ -74,31 +104,28 @@ function FullCV() {
             </Cv.RightBody>
 
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> Creating of responsive
-              interfaces and reusable codes with Reactjs and styled-components.
+              <CheckCircleIcon className="dotit" />
+              Created responsive interfaces and reusable codes with Reactjs and
+              styled-components for future use.
             </Cv.RightBody>
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> Using Nextjs and
-              TailwindCss, I converted static design mockups into a fully usable
-              web3 interface.
-            </Cv.RightBody>
-            <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> I used the most commonly
+              <CheckCircleIcon className="dotit" /> Used the most commonly
               accepted standards to establish the site layout and user
               experience.
             </Cv.RightBody>
+
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" /> HTML, JavaScript, and CSS
-              were used to bring the product designer's concepts to life.
+              were also used to bring the product designer's concepts to life.
             </Cv.RightBody>
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" />
-              Performing bug fixes and code reviews to improve UI
+              Performed bug fixes and code reviews to improve UI
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>
         <Cv.RightDetailsContainer>
-          <Cv.Duration>2020/02-Pressent</Cv.Duration>
+          <Cv.Duration>2020/02-Present</Cv.Duration>
           <Cv.RightDetails>
             <Cv.RightHeading_Heading>
               Quality Assurance Analyst
@@ -108,22 +135,22 @@ function FullCV() {
             </Cv.RightBody>
 
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> I create quality
-              measurements to track improvement in products and services being
-              worked on by several sections of the company.
+              <CheckCircleIcon className="dotit" /> Created quality measurements
+              to track improvement in products and services being worked on by
+              several sections of the company.
             </Cv.RightBody>
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> I Inspect products or
+              <CheckCircleIcon className="dotit" /> Inspected products or
               services to meet company regulatory requirements.
             </Cv.RightBody>
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> I work closely with the
+              <CheckCircleIcon className="dotit" /> Worked closely with the
               development team to improve existing products.
             </Cv.RightBody>
             <Cv.RightBody>
-              <CheckCircleIcon className="dotit" /> I sometimes assist with
-              Front-end development which includes the creation of landing-page
-              with, testing, and debugging.
+              <CheckCircleIcon className="dotit" /> Assisted with Front-end
+              development which includes the creation of landing-page with,
+              testing, and debugging.
             </Cv.RightBody>
           </Cv.RightDetails>
         </Cv.RightDetailsContainer>

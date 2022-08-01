@@ -14,6 +14,11 @@ function FullCV() {
         </Cv.LeftView>
         <Cv.Heading_Heading>Address</Cv.Heading_Heading>
         <Cv.Body>Lagos, Nigeria</Cv.Body>
+        <Cv.Heading_Heading>Portfolio</Cv.Heading_Heading>
+        <a href="https://realrufans.vercel.app/">
+          {" "}
+          <Cv.Body>https://realrufans.vercel.app/</Cv.Body>
+        </a>
         <Cv.Heading_Heading>Phone</Cv.Heading_Heading>
         <Cv.Body className="leftHeading">+234(0)8182590878</Cv.Body>
         <Cv.Heading_Heading>Email</Cv.Heading_Heading>
@@ -70,7 +75,9 @@ function FullCV() {
             <Cv.RightHeading_Heading>
               Blockchain Front End Developer
             </Cv.RightHeading_Heading>
-            <Cv.RightBody className="projectlink">{<a href="">CoinSino (coming soon)</a>}</Cv.RightBody>
+            <Cv.RightBody className="projectlink">
+              {<a href="">CoinSino (coming soon)</a>}
+            </Cv.RightBody>
             <Cv.RightBody>
               <CheckCircleIcon className="dotit" />
               With Nextjs and TailwindCss, I converted static design mockups
